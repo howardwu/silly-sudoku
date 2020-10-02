@@ -2,6 +2,15 @@
 
 A simple Sudoku puzzle grid in Leo.
 
+## Usage
+
+Add `silly-sudoku` to your Leo project:
+```
+leo add howard/silly-sudoku
+```
+
+This package is hosted on [Aleo.pm](https://aleo.pm/@howard/silly-sudoku).
+
 ## Walkthrough
 
 Start by defining a puzzle grid:
