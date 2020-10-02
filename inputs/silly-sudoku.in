@@ -1,0 +1,11 @@
+// The program input for stable_token/src/main.leo
+[main]
+puzzle: [u8; (3, 3)] = [[0, 4, 6],
+                        [3, 0, 9],
+                        [7, 5, 0]];
+answer: [u8; (3, 3)] = [[8, 4, 6],
+                        [3, 1, 9],
+                        [7, 5, 2]];
+
+[registers]
+r0: bool = false;
