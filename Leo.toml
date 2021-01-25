@@ -1,4 +1,4 @@
-[package]
+[project]
 name = "silly-sudoku"
 version = "0.1.2"
 description = "A simple Sudoku puzzle grid"
