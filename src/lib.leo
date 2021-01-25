@@ -24,7 +24,7 @@ circuit SillySudoku {
      * Verifies a given answer by iterating through the Sudoku puzzle,
      * and checking that each number is set exactly once.
      */
-    function solve(answer: [u8; (3, 3)]) -> bool {
+    function solve(self, answer: [u8; (3, 3)]) -> bool {
         // The result boolean is set to true, if the answer is correct.
         let mut result = true;
         // An array that tracks the numbers used on the Sudoku grid.
